@@ -1,0 +1,16 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+
+    background:
+        radial-gradient(circle at top, #392779 0%, transparent 45%),
+        radial-gradient(circle at bottom right, #092767 0%, transparent 35%),
+        #030712;
+
+    color: white;
+
+}
+ usar isso no meu projeto espacial
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-classes</title>
+    <style>
+        body{
+            background-color: #2b064dcd;
+        }
+        #a1,#a2,#a3{
+        display: inline-block;
+        background-color: #912fec92;
+        text-align: center;
+        height: 200px;
+        width: 200px;
+        text-shadow: 0px 6px 10px;
+        font-size: 20px;
+        margin-top: 200px;
+        border: black;
+        box-shadow: 0px 5px 20px black;
+      }
+ #pai{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+ #a1:hover,#a2:hover,#a3:hover{
+    transition: 1s;
+    transform: rotatex(15deg) rotateY(5deg);
+ }
+    </style>
+</head>
+<body>
+<div id="pai">
+    
+    <div id="a1">1</div>
+    <div id="a2">2</div>
+    <div id="a3">3</div>
+    
+</div>
+</body>
+</html>
